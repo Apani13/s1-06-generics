@@ -1,4 +1,4 @@
-package level01;
+package level01.exercise1and2.util;
 
 public class GenericMethods {
     public static <T, U, V> void printArgs(T arg1, U arg2, V arg3) {

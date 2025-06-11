@@ -1,4 +1,4 @@
-package level01;
+package level01.exercise1and2.util;
 
 public class NoGenericMethods {
     private Object arg1;

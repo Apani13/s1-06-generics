@@ -1,4 +1,4 @@
-package level01;
+package level01.exercise1and2.model;
 
 public class Person {
     private String name;
