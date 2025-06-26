@@ -9,7 +9,7 @@ class NoGenericMethodsTest {
     @Test
     void givenThreeArgs_whenPrintArgsCalled_thenOutputContainsNumberedLines() {
         assertThrows(NullPointerException.class,
-                () -> new NoGenericMethods(null, "B", "C"));
+                () -> new NoGenericMethods(null, 3, 'c'));
     }
 }
 

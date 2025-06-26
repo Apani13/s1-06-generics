@@ -6,7 +6,7 @@ import level01.exercise1and2.util.NoGenericMethods;
 
 public class AppController {
     public void run() {
-        NoGenericMethods noGenericMethods = new NoGenericMethods("first", "second", "third");
+        NoGenericMethods noGenericMethods = new NoGenericMethods("first", 34, 'f');
 
         System.out.println("NoGenericMethods args:");
         System.out.println(noGenericMethods.getArg1());
